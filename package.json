@@ -1,0 +1,45 @@
+{
+  "name": "js-sync-client",
+  "version": "0.0.1",
+  "description": "synchronization library",
+  "scripts": {
+    "test": "mocha --compilers babel-register --require babel-polyfill",
+    "start": "npx babel-node --presets=es2015,es2016,es2017 ./testServer.js ",
+    "dbg": "npx babel-node --presets=es2015,es2016,es2017 --inspect-brk ./test.js "
+  },
+  "author": "Ales Saska",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "chai": "^4.1.2",
+    "assert": "^1.4.1",
+    "mocha": "^5.2.0"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-decorators"
+    ]
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "immutable": "^3.8.2",
+    "immutablediff": "^0.4.4",
+    "immutablepatch": "^0.4.2",
+    "react": "^16.5.0",
+    "throttle-debounce": "^2.0.1",
+    "uuid": "^3.3.2",
+    "websocket": "^1.0.26",
+    "wolfy87-eventemitter": "^5.2.5",
+    "ws": "^6.0.0"
+  }
+}
