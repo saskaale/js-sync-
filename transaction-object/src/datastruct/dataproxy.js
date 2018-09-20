@@ -1,7 +1,8 @@
 import {fromJS} from 'immutable';
 import {isImmutable} from './utils';
-import 'proxy-polyfill';
-import 'harmony-reflect';
+import 'chrome-proxy';
+//import 'proxy-polyfill';
+//import 'harmony-reflect';
 
 var proxySet = new WeakMap();
 
