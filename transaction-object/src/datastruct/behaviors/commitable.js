@@ -1,4 +1,4 @@
-import Symbol from 'es6-symbol/implement';
+const Symbol = require('es6-symbol');
 
 const AUTOCOMMIT_STRATEGIES = {
   NEVER: Symbol('never'),

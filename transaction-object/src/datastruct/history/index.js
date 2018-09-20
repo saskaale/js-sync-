@@ -1,4 +1,4 @@
-import Symbol from 'es6-symbol/implement';
+const Symbol = require('es6-symbol');
 
 import DEQueue from './queue';
 
