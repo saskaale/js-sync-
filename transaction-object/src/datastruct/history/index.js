@@ -1,3 +1,5 @@
+import Symbol from 'es6-symbol/implement';
+
 import DEQueue from './queue';
 
 export default class History{

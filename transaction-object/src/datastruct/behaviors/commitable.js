@@ -1,3 +1,5 @@
+import Symbol from 'es6-symbol/implement';
+
 const AUTOCOMMIT_STRATEGIES = {
   NEVER: Symbol('never'),
   ASYNC: Symbol('async'),
