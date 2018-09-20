@@ -1,5 +1,6 @@
 import {fromJS} from 'immutable';
 import {isImmutable} from './utils';
+import 'proxy-polyfill';
 
 var proxySet = new WeakMap();
 
